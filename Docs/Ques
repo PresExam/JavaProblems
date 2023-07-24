@@ -38,3 +38,10 @@ Q-  Write a JAVA program to develop a calculator where we have a class as
     which is the child of ADVANCED CALCULATOR will have a method as DIVISION. In
     the main method create an object of SUPER ADVANCED CALCULATOR which will perform
     all the operations of a CALCULATOR.
+
+Q-  Write a Java program and demonstrate the access modifier. Define a class with
+    example member variables and methods having different access modifiers. In the
+    main method create an instance of the example class and trying accessing the
+    members from within and outside the class to observe access restrictions.
+
+Q-

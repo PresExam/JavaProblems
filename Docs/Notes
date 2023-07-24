@@ -71,3 +71,13 @@
                - Security
                - We achieve Multiple-Inheritance using INTERFACES.
                - To implement Multiple-Interfaces with separate it with COMAS(,).
+
+*** ASSOCIATION ***
+
+>>  Association in JAVA signifies the relation between classes.
+
+    >>  There are two types of association in JAVA :-
+        -   Aggregation (It is a week relationship between the classes)
+            > Loosely Coupled
+        -   Composition (It is a strong relationship between the classes)
+            > Tightly Coupled
