@@ -1,0 +1,96 @@
+*** CONSTRUCTOR ***
+
+>>  Constructor is a special method which is used to create object
+>>  If a user doesn't create a constructor then it is automatically created by
+    the JVM.
+>>  Whenever a new object is created using the new keyword the constructor is
+    called automatically.
+
+>>  There are two types of CONSTRUCTORS :-
+        a. Default constructor
+        b. Parameterized or user Defined constructor
+----------------------------------------------------------------------------------------
+*** ENCAPSULATION ***
+
+>>  Encapsulation is a way to restrict the direct access to some components of an
+    object, so users cannot access state values for all of the variables of a
+    particular object.
+----------------------------------------------------------------------------------------
+*** INHERITANCE ***
+
+>>  Inheritance in Java is a mechanism in which one object acquires all the
+    properties and behaviors of a parent object. It is an important part of
+    OOPs (Object Oriented programming system).
+----------------------------------------------------------------------------------------
+*** POLYMORPHISM ***
+
+>>  The process by which same method can have different meaning in different classes
+    or same class is called POLYMORPHISM.
+
+>>  There are two types of POLYMORPHISM :-
+    a. Compile Time Polymorphism - (METHOD OVERLOADING)
+    b. Run Time Polymorphism - (METHOD OVERRIDING)
+
+    - If a class with multiple methods having the same name but different parameters
+      it is known as METHOD OVERLOADING.
+    - If a class with same methods from parent class taken to the child class and
+      incremented differently is known as METHOD OVERRIDING.
+    - Methods must have the same parameter as in the parent class there should be an
+      inheritance relationship between the classes.
+----------------------------------------------------------------------------------------
+*** ABSTRACTION ***
+
+>>  Hiding the implementation details and only showing functionality to the user is
+    called ABSTRACTION.
+
+    >>  ABSTRACTION are of two ways in JAVA :-
+        a. ABSTRACT CLASSES and METHODS (0% - 100%)
+        b. INTERFACES (100%)
+
+        >>> ABSTRACT CLASSES & METHODS -
+
+            1. ABSTRACT Classes -
+               - It is a restricted class which can not have objects.
+               - We need to inherit this class to create objects.
+
+            2. ABSTRACT Methods -
+               - These Methods can be used in Abstract Classes and they do not have a body.
+               - The body of a Abstract Method is provided in the Child Class.
+
+            ** An Abstract can have both Abstract Methods and regular Methods.
+            ** If we have only Abstract Methods in an Abstract Class it is 100% Abstraction.
+            ** That's why Abstract Class can achieve 100% Abstraction.
+
+        >>> INTERFACES
+            - An Interface is a complete Abstract Class that is used to group related methods
+              with empty bodies.
+            - The body of all the methods are provided in the classes with implements the
+              Interface.
+
+            >> Uses of an INTERFACE :-
+               - Security
+               - We achieve Multiple-Inheritance using INTERFACES.
+               - To implement Multiple-Interfaces with separate it with COMAS(,).
+----------------------------------------------------------------------------------------
+*** ASSOCIATION ***
+
+>>  Association in JAVA signifies the relation between classes.
+
+    >>  There are two types of association in JAVA :-
+        -   Aggregation (It is a week relationship between the classes)
+            > Loosely Coupled
+        -   Composition (It is a strong relationship between the classes)
+            > Tightly Coupled
+----------------------------------------------------------------------------------------
+*** STRING BUFFER & STRING BUILDER ***
+
+>>  There are few differences between String Buffer & StringBuilder.
+
+    >>  The differences are :-
+        - StringBuffer was introduced prior to String Builder in JAVA.
+        - StringBuffer is less efficient then StringBuilder.
+        - StringBuffer is synchronized that is thread safe.
+          (It means two threads can't call the methods of StringBuffer simultaneously)
+        - StringBuilder is not-synchronized that is not thread safe.
+          (It means two threads can call the methods StringBuilder simultaneously)
+        - Due to synchronization StringBuffer become lot slower than StringBuilder.
