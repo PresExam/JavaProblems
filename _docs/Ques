@@ -50,10 +50,26 @@ Q-  Write a JAVA program to demonstrate how to handle different types of EXCEPTI
 
 Q-  Write a JAVA program to show the use of TRY & CATCH block.
 
-Q-  Write a JAVA program to show the use of TRY & CATCH block along with FINALLY block.
+Q-  Write a JAVA program to show the use of TRY & CATCH block along with FINALLY
+    block.
 
-Q-  Write a JAVA program to show the use of TRY & CATCH block along with the TRUE keyword.
+Q-  Write a JAVA program to show the use of TRY & CATCH block along with the TRUE
+    keyword.
 
 Q-  Write a JAVA program to show the use of TRY without using CATCH block.
 
-Q-  Write a JAVA program to demonstrate the use of TRY with resources while handling exceptions.
+Q-  Write a JAVA program to demonstrate the use of TRY with resources while handling
+    exceptions.
+
+Q-  Write a JAVA program to get the current DATE and TIME from the system.
+
+Q-  Write a JAVA program to get the current DATE and TIME in a formatted way taken
+    from the system.
+
+Q-  Write a JAVA program to get the DATE and TIME which was 53 months before the
+    current DATE.
+
+Q-  Write a JAVA program to get the DATE and TIME after 47 weeks from the current
+    DATE.
+
+Q-

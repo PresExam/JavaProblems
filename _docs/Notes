@@ -94,3 +94,4 @@
         - StringBuilder is not-synchronized that is not thread safe.
           (It means two threads can call the methods StringBuilder simultaneously)
         - Due to synchronization StringBuffer become lot slower than StringBuilder.
+----------------------------------------------------------------------------------------

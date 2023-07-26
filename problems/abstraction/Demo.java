@@ -18,7 +18,7 @@ class Turtle extends Animal{
         System.out.println("I am a Turtle, I have low voice...");
     }
 }
-public class AbsDemo {
+public class Demo {
     public static void main(String[] args) {
         Tiger t = new Tiger();
         t.sound();

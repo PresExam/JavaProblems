@@ -20,7 +20,7 @@ class rabbit implements animal{
         System.out.println("I am rabie...my color is white");
     }
 }
-public class InterfaceDemo {
+public class Demo {
     public static void main(String[] args) {
         lion l = new lion();
         rabbit r = new rabbit();
