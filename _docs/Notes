@@ -95,3 +95,12 @@
           (It means two threads can call the methods StringBuilder simultaneously)
         - Due to synchronization StringBuffer become lot slower than StringBuilder.
 ----------------------------------------------------------------------------------------
+*** STATIC KEYWORD USES ***
+
+>>  We can use static keyword in various types that are :-
+    - Static keyword is used for better memory management
+    - Static keyword can be accessed from inside a class directly without any object
+    - Static keyword can be accessed outside a class without creating object simply
+      by using class name.
+    - Static keyword belongs to the class and not to any particular object.
+----------------------------------------------------------------------------------------
