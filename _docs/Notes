@@ -104,3 +104,26 @@
       by using class name.
     - Static keyword belongs to the class and not to any particular object.
 ----------------------------------------------------------------------------------------
+*** GENERICS ***
+
+>>  Declaring the data type of the variable before using it is called as safe typing.
+>>  Generics means introducing the type of objects that is going to be stored.
+>>  Forces JAVA programmers to store only specific data type.
+>>  In JAVA generics a wild card is a special symbol(?) that represents an unknown
+    type. It allows us to work with generic classes, generic methods or interfaces in
+    a more flexible way that when the exact type is not important or known in advance.
+
+    >>  There are two types of WILD CARD in generics
+        - Unbounded WILD Card (? or T) :
+            It represents an unknown type & can be used when we want to accept and
+            process any type of parameterized class or collection without specifying
+            the exact time.
+            EX - ArrayList<T> & ArrayList<?>
+
+        - Bounded WILD Card { (? extends T) or (? super T) } :
+            It allow us to specify restrictions on the types that can be used as
+            arguments. We can use (? extends T) to specify the argument must be of the
+            type T or a subclass of T and we can use (? super T) to specify that
+            argument must be of type  T or a super class of T.
+            EX - ArrayList<? extends T> & ArrayList<? super T>
+----------------------------------------------------------------------------------------
