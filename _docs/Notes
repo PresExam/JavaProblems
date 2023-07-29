@@ -127,3 +127,31 @@
             argument must be of type  T or a super class of T.
             EX - ArrayList<? extends T> & ArrayList<? super T>
 ----------------------------------------------------------------------------------------
+*** STREAM API ***
+
+>>  The STREAM API in JAVA is a feature that allows us to process collections of data
+    in a more precised and functional way. It provides a declarative and functional
+    approach to work with data, making code more readable and expressive.
+>>  In simple words think of a STREAM as a sequence of ELEMENTS(OBJECTS) that we can
+    work with, like a pipeline through which data flows. The STREAM API allows us to
+    perform various operation on the sequence of elements such as filtering, mapping,
+    sorting and reducing the data. These operations are often perform in a functional
+    style using lambda expression
+
+    -  SOURCE -
+        First we obtain a String from a data source like a collection.
+        EX - LIST, SET, MAP and ARRAY
+
+    -  INTERMEDIATE OPERATIONS -
+        After obtaining a STREAM we apply INTERMEDIATE OPERATIONS, these operations
+        don't produce a final result immediately but they return another STREAM,
+        allowing us to change multiple operations together, these operations TRANSFORM,
+        FILTER or REORDER the data in the STREAM.
+        EX - FILTER, MAP, SORTED, DISTINCT, etc.
+
+    -  TERMINAL OPERATIONS -
+        TERMINAL OPERATIONS trigger the processing of the STREAM. They return a
+        NON-STREAM result like a single value a collection or nothing (void). These
+        operations produce a final result or a side effect.
+        EX - FOREACH, COLLECT, REDUCE, etc.
+----------------------------------------------------------------------------------------
