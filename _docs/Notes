@@ -155,3 +155,64 @@
         operations produce a final result or a side effect.
         EX - FOREACH, COLLECT, REDUCE, etc.
 ----------------------------------------------------------------------------------------
+*** SERIALIZATION DESERIALIZATION ***
+
+>>  Serialization is a process of converting object into byte stream and converting the
+    byte stream to object is called deserialization.
+
+>>  This process enables the object's stream to be preserved and restored, making it
+    useful for various purposes like data persistence and communication
+
+>>  A serialized interface is a marker interface that doesn't have any methods. but it
+    indicates object of the implementing class can be serialized.
+
+>>  To serialize an object we use ObjectOutputStream and to deserialize it back into an
+    object we use ObjectInputStream.
+
+>>  Serialization is a mechanism in java that allows us to save and restore object's
+    state and transfer objects between different java applications.
+
+----------------------------------------------------------------------------------------
+*** FUNCTIONAL INTERFACES ***
+
+>>  Functional interfaces in JAVA are special type of interfaces that have exactly one
+    abstract method and can have any number of default and static method . They are a
+    key component of JAVA's functional programming support which was introduced in JAVA 8.
+    Functional interfaces are used to represent lambda expression or method references
+    allowing functional programming techniques to be applied
+
+----------------------------------------------------------------------------------------
+*** THREAD ***
+
+>>  Characteristics of Threads:
+
+    - Lightweight
+    - Concurrency
+    - Shared Resources
+    - Communication
+    - Parallelism
+
+    >>  In JAVA threads can be created and managed in 2 ways
+        - Extending the thread class
+        - Implementing the runnable interface
+
+>>  Multithreading in JAVA allows a program to execute multiple threads concurrently
+    thereby enable the efficient utilization of resources and enhancing the
+    responsiveness of applications
+
+>>  Each thread have its own object and manually overhead when we use the runnable
+    interface we create one instance of the object implementing runnable . Then we can
+    pass the single object. this is more efficient in terms of resource management since
+    all threads share the same object extending the thread class useful when we want to
+    have direct control over the behaviour and lifecycle of the thread when we need to
+    override some methods of the thread class however it is not very flexible when it
+    comes to re-usability and sharing resources among multiple threads.
+
+    - Runnable interface is a better choice when we want to separate the task
+      logic from the thread management, allowing for more flexibility and better
+      object oriented design.
+
+    - It is recommended to use the runnable interface for creating threads in java as
+      it provides better design principles , is more flexible and allows for better
+      resource management when dealing with multiple threads.
+----------------------------------------------------------------------------------------

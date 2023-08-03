@@ -72,6 +72,17 @@ Q-  Write a JAVA program to get the DATE and TIME which was 53 months before the
 Q-  Write a JAVA program to get the DATE and TIME after 47 weeks from the current
     DATE.
 
+Q-  Write a JAVA program to remove items from a collection using ITERATOR.
+
+Q-  Write a JAVA program to demonstrate serialization involving an external resource.
+    Create two classes one representing external resource and the other representing
+    other object, SERIALIZE the main OBJECT including the external resource to a file
+    and the deserialize it to retrieve core OBJECT0S.
+
+Q-  Write a JAVA program and demonstrate the use of THREAD SYNCHRONIZATION. Creating a
+    class as BankAcc, a Depositor which implements runnable and how it is going to work
+    for different Depositors of the BANK.
+
 -----------------------------INTERVIEW QUESTIONS---------------------------------------
 
 Q-  Geet Raj got an offer from GOOGLE now he has end his left to join and also he
