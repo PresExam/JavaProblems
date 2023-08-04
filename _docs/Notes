@@ -216,3 +216,26 @@
       it provides better design principles , is more flexible and allows for better
       resource management when dealing with multiple threads.
 ----------------------------------------------------------------------------------------
+*** JDBC ***
+
+>>  JAVA.SQL.DRIVER
+    - This class manages the set of database drivers to accomplish the connection to the 
+      database and obtain a connection object. 
+
+>>  JAVA.SQL.CONNECTION
+    - It represents a connection in a specific database, it is used to create statement
+      and prepared statement objects to execute as a query.
+
+>>  JAVA.SQL.STATEMENT
+    - Used to execute static SQL statements which are SQL queries that do not have input 
+      parameters.
+
+>>  JAVA.SQL.PREPAREDSTATEMENT
+    - A sub interface of STATEMENT class used to execute precompiled SQL statements  
+      It is tipically used for executing SQL queries with input parameters.
+    - Used to execute dynamic SQL statements which are SQL queries that also have input
+      parameters.
+
+>>  JAVA.SQL.RESULTSET
+    - It represents a ResultSet obtained from executing a query. It provides methods to
+      navigate to the results and retrieve data from the query.
