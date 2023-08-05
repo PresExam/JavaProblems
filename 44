@@ -1,0 +1,58 @@
+class problem4 {
+
+    static point head;
+
+    static class point {
+
+        int data;
+        point next;
+
+        point(int d)
+        {
+            data = d;
+            next = null;
+        }
+    }
+
+    point reverse(point point)
+    {
+        point prev = null;
+        point current = point;
+        point next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        point = prev;
+        return point;
+    }
+
+    // prints content of double linked list
+    void printList(point point)
+    {
+        while (point != null) {
+            System.out.print(point.data + " ");
+            point = point.next;
+        }
+    }
+
+    // Driver Code
+    public static void main(String[] args)
+    {
+        problem4 list = new problem4();
+        list.head = new point(1);
+        list.head.next = new point(2);
+        list.head.next.next = new point(3);
+
+        System.out.println("Given linked list");
+        list.printList(head);
+        head = list.reverse(head);
+        System.out.println("");
+        System.out.println("Reversed linked list ");
+        list.printList(head);
+    }
+}
+
+// This code has been contributed by Mayank Jaiswal
