@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class MazeSolver {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt(); // Number of rows
+        int m = scanner.nextInt(); // Number of columns
+
+        int[][] maze = new int[n][m];
+
+        // Input the maze
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                maze[i][j] = scanner.nextInt();
+            }
+        }
+
+        if (solveMaze(maze, 0, 0, n, m)) {
+            System.out.println("1");
+        } else {
+            System.out.println("0");
+        }
+    }
+
+    public static boolean solveMaze(int[][] maze, int x, int y, int n, int m) {
+        // If the current position is the destination, return true
+        if (x == n - 1 && y == m - 1) {
+            return true;
+        }
+
+        // Check if the current position is within the maze boundaries and not a wall (0)
+        if (x < 0 || y < 0 || x >= n || y >= m || maze[x][y] == 0) {
+            return false;
+        }
+
+        // Mark the current position as visited (2) to avoid revisiting the same cell
+        maze[x][y] = 2;
+
+        // Check all possible moves (right and down) from the current position
+        if (solveMaze(maze, x + 1, y, n, m) || solveMaze(maze, x, y + 1, n, m)) {
+            return true;
+        }
+
+        // If there is no path from the current position, backtrack and mark the cell as unvisited (1)
+        maze[x][y] = 1;
+        return false;
+    }
+}
